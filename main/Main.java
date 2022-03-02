@@ -12,7 +12,6 @@ public class Main {
         ArrayUtil.printArray(array);
         // TODO реализуйте код для создания перевернутого массива
         int[] temp = new int[array.length];
-
         for (int i = 0; i < array.length; i++) {
             temp[i] = array[array.length - i - 1];
         }
