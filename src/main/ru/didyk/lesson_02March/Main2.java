@@ -1,3 +1,5 @@
+package ru.didyk.lesson_02March;
+
 public class Main2 {
     public static void main(String[] args) {
 

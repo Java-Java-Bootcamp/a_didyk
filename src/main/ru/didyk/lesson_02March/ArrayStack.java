@@ -1,3 +1,5 @@
+package ru.didyk.lesson_02March;
+
 public class ArrayStack {
 
     private int[] stack = new int[10];

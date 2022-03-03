@@ -1,3 +1,5 @@
+package ru.didyk.lesson_02March;
+
 import java.util.Random;
 
 public class ArrayUtil {
