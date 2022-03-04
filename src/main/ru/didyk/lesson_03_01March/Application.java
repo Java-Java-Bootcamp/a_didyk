@@ -1,5 +1,9 @@
-package ru.didyk.lesson_03_01March.atm;
+package ru.didyk.lesson_03_01March;
 
+import ru.didyk.lesson_03_01March.MyVersion.ATM;
+import ru.didyk.lesson_03_01March.MyVersion.AccountState;
+import ru.didyk.lesson_03_01March.MyVersion.Banknotes;
+import ru.didyk.lesson_03_01March.MyVersion.ConcretteATM;
 import ru.didyk.lesson_03_01March.atm.MyVersion.*;
 
 public class Application {

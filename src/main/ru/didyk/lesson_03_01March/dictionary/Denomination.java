@@ -1,4 +1,4 @@
-package ru.didyk.lesson_03_01March.atm.dictionary;
+package ru.didyk.lesson_03_01March.dictionary;
 
 public enum Denomination {
     FIFTY(50),

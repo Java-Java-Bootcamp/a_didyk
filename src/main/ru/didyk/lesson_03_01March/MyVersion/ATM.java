@@ -1,4 +1,4 @@
-package ru.didyk.lesson_03_01March.atm.MyVersion;
+package ru.didyk.lesson_03_01March.MyVersion;
 
 public interface ATM {
     int accountState();
