@@ -3,7 +3,6 @@ package ru.didyk.lesson_04March;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-import static java.lang.Integer.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,13 +13,17 @@ public class Main {
         do {
             try {
                 System.out.println("Введите первое число: ");
-                a = new Scanner(System.in).nextInt();
+                a = scanner.nextInt();
                 cor = true;
             } catch (InputMismatchException e) {
                 System.out.println("Некорректный ввод");
+                scanner.next();
             }
         }
         while (!cor);
+
+
+
         System.out.println("Введите второе число: ");
         int b = scanner.nextInt();
 
