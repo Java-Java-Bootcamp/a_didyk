@@ -1,6 +1,7 @@
-package ru.didyk.lesson_09March.firstTask;
+package ru.didyk.lesson_09March.firstTask.simpleTests;
 
 import org.junit.jupiter.api.Test;
+import ru.didyk.lesson_09March.firstTask.EmailValidatorImpl;
 
 import static org.junit.jupiter.api.Assertions.*;
 
