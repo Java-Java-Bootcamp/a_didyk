@@ -2,18 +2,16 @@ package ru.didyk.lesson_09March.secondTask;
 
 import java.util.regex.Pattern;
 
-public class NumbersWithPointValidatorImpl implements MyValidator {
+public class NumbersWithPointValidatorImpl extends AbstractValidator {
 
-    private static final Pattern pattern = Pattern.compile("[-]?\\d+[.]?\\d+");
-//    private static final Pattern pattern = Pattern.compile("\\b\\d{2}\\b");
+    public NumbersWithPointValidatorImpl() {
+        pattern = Pattern.compile("[-]?\\d*[.]?\\d+");
+    }
 
-
-    @Override
     public boolean validate(String string) {
         return pattern.matcher(string).matches();
     }
 
-    @Override
     public String name() {
         return "just number";
     }

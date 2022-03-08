@@ -2,9 +2,11 @@ package ru.didyk.lesson_09March.secondTask;
 
 import java.util.regex.Pattern;
 
-public class ColorValidatorImpl implements MyValidator {
+public class ColorValidatorImpl extends AbstractValidator {
 
-    private static final Pattern pattern = Pattern.compile("#\\w+");
+    public ColorValidatorImpl() {
+        pattern = Pattern.compile("#\\w+");
+    }
 
     @Override
     public boolean validate(String string) {
