@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 public class NumbersWithPointValidatorImpl extends AbstractValidator {
 
     public NumbersWithPointValidatorImpl() {
-        pattern = Pattern.compile("[-]?\\d*[.]?\\d+");
+        pattern = Pattern.compile("[-]?\\d+[.]?\\d+");
     }
 
     public boolean validate(String string) {
