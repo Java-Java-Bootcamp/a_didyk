@@ -2,9 +2,9 @@ package ru.didyk.lesson_09March.firstTask;
 
 import java.util.regex.Pattern;
 
-public class EmailValidatorImpl implements MyValidator {
+public class ColorValidatorImpl implements MyValidator {
 
-    private static final Pattern pattern = Pattern.compile("\\w+\\S*\\w?@\\w+\\.\\w+");
+    private static final Pattern pattern = Pattern.compile("#\\w+");
 
     @Override
     public boolean validate(String string) {
@@ -13,6 +13,6 @@ public class EmailValidatorImpl implements MyValidator {
 
     @Override
     public String name() {
-        return "email";
+        return "color from html page";
     }
 }

@@ -4,7 +4,7 @@ import java.util.regex.Pattern;
 
 public class TextWithQuotesValidatorImpl implements MyValidator {
 
-    private static final Pattern pattern = Pattern.compile("\"\\w+[\\s+]?\\w+\"");
+    private static final Pattern pattern = Pattern.compile("\"\\w+\\s*\\w+\"");
 
 
     @Override
