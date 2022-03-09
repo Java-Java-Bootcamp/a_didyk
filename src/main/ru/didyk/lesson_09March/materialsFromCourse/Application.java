@@ -1,4 +1,4 @@
-package ru.didyk.lesson_09March.materialFromCourse;
+package ru.didyk.lesson_09March.materialsFromCourse;
 
 import java.util.Scanner;
 

@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         AbstractValidator[] myValidators = {new ColorValidatorImpl(), new EmailValidatorImpl(),
-                new NumbersWithPointValidatorImpl(), new PhoneValidatorImpl(), new TextWithQuotesValidatorImpl()};
+                new NumbersWithPointValidatorImpl(), new PhoneValidatorImpl(), new TextWithQuotesValidatorImpl(),
+                new TimeValidatorImpl()};
         Scanner scanner = new Scanner(System.in);
 
 
