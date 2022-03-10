@@ -12,6 +12,8 @@ public class TextWithQuotesValidatorImpl implements MyValidator {
         return pattern.matcher(string).matches();
     }
 
+    //текст с кавычками
+
     @Override
     public String name() {
         return "text with quotes";
