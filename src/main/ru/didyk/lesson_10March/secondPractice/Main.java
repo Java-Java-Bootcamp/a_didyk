@@ -19,15 +19,16 @@ public class Main {
 
 //
         int[] array = {9, 3, 8, 5, 1};
-//        int[] array = {1, 2, 3, 1, 5};
-        for (int i = 0; i < array.length; i++) {
-            int temp = array[i];
-            for (int j = i - 1; j >= 0; j--) {
-                if (array[i] < array[j]) {
-                    array[i] = array[j];
-                    array[j] = temp;
-                }
+
+        for (int i = 1; i < array.length; i++) {
+            int value = array[i];
+            int j = i - 1;
+
+            while (j >= 0 && array[j] > value) {
+                array[j + 1] = array[j];
+                j--;
             }
+            array[j + 1] = value;
         }
         System.out.println(Arrays.toString(array));
 
